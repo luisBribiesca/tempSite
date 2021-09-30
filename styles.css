@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 1em;
+    /* margin: 0 3em; */
+    background-color:azure;
+    /* box-shadow: 5px 5px 5px black; */
+    background:linear-gradient(145deg,black, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.nav-bar{
+    background:linear-gradient(35deg,black,gray);
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.nav-bar img{
+    position: absolute;
+    left: 1em;
+}
+.nav-bar ul{
+    display: flex;
+   list-style: none;
+}
+.nav-bar ul li{
+  margin: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav-bar ul li a:hover{
+  color: white;
+  
+}
+
+@media screen and (max-width:605px){
+    .nav-bar ul li a{
+        font-size: .8rem;
+    }
+    body{
+        background:linear-gradient(135deg,black,white);
+    }
+
+    p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+/* .about-me::before{
+    content: "url()";
+    box-shadow: 5px 5px 15px white;
+    position: absolute;
+} */
+.abt{
+    width: 20%;
+    height: auto;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    /* margin: 1rem; */
+}
+
+
+.captions{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.first{
+    position: absolute;
+    left: 12%;
+}
+
+.second{
+    position: absolute;
+    left: 47%;
+}
+
+.third{
+    position:absolute;
+    right: 12%;
+}
+
+p{
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Ephesis', cursive;
+    color: white;
+}
+
+.justChecking::before{
+    color: #fc0;
+    content:'Before';
+}
+.justChecking::after{
+    color: greenyellow;
+    content: "After";
+}
+
+.sections{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+.sect{
+    margin: 1rem;
+}
+
+
+h2{
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.turn-dark{
+    color: rgb(25, 24, 31);
+}
+footer h2{
+    color: black;
+}

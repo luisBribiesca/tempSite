@@ -1,0 +1,32 @@
+.pics{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+}
+
+.grid{
+    margin-top: 1em;
+    width: 20%;
+    height: auto;
+    position: relative;
+    box-shadow: 5px 5px 15px black;
+}
+.one{
+    border-radius: 15%;
+    /* box-shadow: -5px -5px 5px black; */
+}
+.two{
+    border-radius: 15%;
+}
+.three{
+    border-radius: 15%;
+}
+
+.last-p{
+    color:black;
+    font-weight: 300;
+    text-align: center;
+}
+.toCenterIt{
+    text-align: center;
+}
