@@ -10,7 +10,7 @@ body{
     background-position: top;
 }
 .nav-bar{
-    background:linear-gradient(35deg,black,white);
+    background:linear-gradient(35deg,#2e3192,#1bffff);
     box-shadow: 5px 5px 5px black;
     display: flex;
     justify-content: flex-end;
