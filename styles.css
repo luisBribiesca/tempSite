@@ -4,13 +4,13 @@ body{
     /* margin: 0 3em; */
     background-color:azure;
     /* box-shadow: 5px 5px 5px black; */
-    background:linear-gradient(145deg,black, white);
+    background:linear-gradient(145deg,#2e3192,#1bffff);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
 .nav-bar{
-    background:linear-gradient(35deg,#2e3192,#1bffff);
+    background:linear-gradient(35deg,black,white);
     box-shadow: 5px 5px 5px black;
     display: flex;
     justify-content: flex-end;
